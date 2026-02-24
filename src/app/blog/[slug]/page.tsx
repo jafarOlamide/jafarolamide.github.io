@@ -97,20 +97,20 @@ export default async function Blog({
     post._meta.path.replace(/\.mdx$/, "");
 
   const jsonLdContent = JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: post.title,
-    datePublished: post.publishedAt,
-    dateModified: post.publishedAt,
-    description: post.summary,
-    image: post.image
-      ? `${DATA.url}${post.image}`
-      : `${DATA.url}/blog/${slug}/opengraph-image`,
-    url: `${DATA.url}/blog/${slug}`,
-    author: {
-      "@type": "Person",
-      name: DATA.name,
-    },
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.title,
+  datePublished: post.publishedAt,
+  dateModified: post.publishedAt,
+  description: post.summary,
+  ...(post.image && {
+    image: `${DATA.url}${post.image}`,
+  }),
+  url: `${DATA.url}/blog/${slug}`,
+  author: {
+    "@type": "Person",
+    name: DATA.name,
+  },
   }).replace(/</g, "\\u003c");
 
   return (
