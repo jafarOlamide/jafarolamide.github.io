@@ -2,7 +2,7 @@ import { withContentCollections } from "@content-collections/next";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "jafarolamide.github.io",
+  basePath: "/jafarolamide.github.io",
   output: "export",
   reactStrictMode: true,
   async headers() {
