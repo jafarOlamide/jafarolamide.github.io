@@ -10,6 +10,14 @@ import { Docker } from "@/components/ui/svgs/docker";
 import { AWS } from "@/components/ui/svgs/aws";
 import { MySQL } from "@/components/ui/svgs/mysql";
 import { Gitlab } from "@/components/ui/svgs/gitlab";
+import { Grafana } from "@/components/ui/svgs/grafana";
+import { Fastapi } from "@/components/ui/svgs/fastapi";
+import { Django } from "@/components/ui/svgs/django";
+import { Graphql } from "@/components/ui/svgs/graphql";
+import { Bash } from "@/components/ui/svgs/bash";
+import { Terraform } from "@/components/ui/svgs/terraform";
+import { Nestjs } from "@/components/ui/svgs/nestjs";
+import { Git } from "@/components/ui/svgs/git";
 
 export const DATA = {
   name: "Ja'far Agbelekale",
@@ -28,11 +36,19 @@ export const DATA = {
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
     { name: "Python", icon: Python },
+    { name: "FastAPI", icon: Fastapi },
+    { name: "Django", icon: Django },
+    { name: "NestJS", icon: Nestjs },
+    { name: "GraphQL", icon: Graphql },
     { name: "Docker", icon: Docker },
     { name: "AWS", icon: AWS },
+    { name: "Terraform", icon: Terraform },
+    { name: "Bash", icon: Bash },
+    { name: "Git", icon: Git },
     { name: "GitLab", icon: Gitlab },
     { name: "Postgres", icon: Postgresql },
     { name: "MySQL", icon: MySQL },
+    { name: "Grafana", icon: Grafana },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -68,6 +84,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Independent",
+      badges: [],
+      href: "https://github.com/jafarOlamide",
+      location: "Remote",
+      title: "Freelance Software Engineer",
+      logoUrl: "",
+      start: "August 2024",
+      end: "Present",
+      description:
+        "Owned full product cycles solo, migrating dashboards, building Stripe powered payment flows processing £100K+ per event, and shipping multi-tenant SaaS architecture for B2B clients onboarding.",
+    },
+    {
       company: "Scorchsoft Limited",
       href: "",
       badges: [],
@@ -79,18 +107,7 @@ export const DATA = {
       description:
         "Inherited broken applications on web, mobile and server side and took them production, slashed API response times by 99.75%, and migrated legacy codebases to modern tooling.",
     },
-    {
-      company: "Independent",
-      badges: [],
-      href: "https://github.com/jafarOlamide",
-      location: "Remote",
-      title: "Freelance Software Engineer",
-      logoUrl: "",
-      start: "August 2024",
-      end: "September 2024",
-      description:
-        "Owned full product cycles solo — migrating dashboards, building Stripe payment flows processing £100K+ per event, and shipping multi-tenant SaaS architecture for B2B clients.",
-    },
+
     {
       company: "Inqaba Biotec",
       href: "",
