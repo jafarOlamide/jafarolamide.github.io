@@ -31,12 +31,11 @@ export default function ContactSection() {
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
           >
-          connect with me on LinkedIn
+            connect with me on LinkedIn
           </Link>{" "}
-          and I&apos;ll respond whenever I can.
+          and I&apos;ll as soon as I can.
         </p>
       </div>
     </div>
   );
 }
-
