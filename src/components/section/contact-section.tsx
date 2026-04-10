@@ -33,7 +33,7 @@ export default function ContactSection() {
           >
             connect with me on LinkedIn
           </Link>{" "}
-          and I&apos;ll as soon as I can.
+          and I&apos;ll get back to you as soon as I can.
         </p>
       </div>
     </div>
