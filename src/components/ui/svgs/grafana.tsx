@@ -24,8 +24,8 @@ const Grafana = (props: SVGProps<SVGSVGElement>) => (
         y2="2928.07"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff100"></stop>
-        <stop offset="1" stop-color="#f05a28"></stop>
+        <stop stopColor="#fff100"></stop>
+        <stop offset="1" stopColor="#f05a28"></stop>
       </linearGradient>
     </defs>
   </svg>
