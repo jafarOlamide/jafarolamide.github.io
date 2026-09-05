@@ -26,9 +26,9 @@ export const DATA = {
   location: "Swindon, United Kingdom",
   locationLink: "",
   description:
-    "Experienced Software Engineer. I love building things and I am always looking for growth opportunities.",
+    "Senior Full-Stack Software Engineer. I love building things and I am always looking for growth opportunities.",
   summary:
-    "A Software engineer with over 6 years of building, growth and learning. I have a sharp eye for debugging, a low tolerance for unnecessary complexity, and a genuine belief that good software is never really finished but only improved. I bring that same mindset to myself.",
+    "A Full-Stack Software engineer with over 6 years of building, growth and learning. I have a sharp eye for debugging, a low tolerance for unnecessary complexity, and a genuine belief that good software is never really finished but only improved. I bring that same mindset to myself.",
   avatarUrl: "/me.jpg",
   skills: [
     { name: "Typescript", icon: Typescript },
@@ -55,8 +55,8 @@ export const DATA = {
     // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "jafarolamidekale@gmail.com",
+    tel: "+44",
     social: {
       GitHub: {
         name: "GitHub",
@@ -103,7 +103,7 @@ export const DATA = {
       title: "Full Stack Engineer",
       logoUrl: "",
       start: "September 2024",
-      end: "January 2026",
+      end: "December 2025",
       description:
         "Inherited broken applications on web, mobile and server side and took them production, slashed API response times by 99.75%, and migrated legacy codebases to modern tooling.",
     },
@@ -115,8 +115,8 @@ export const DATA = {
       location: "Remote",
       title: "Software Engineer (Contract)",
       logoUrl: "",
-      start: "October 2021",
-      end: "August 2023",
+      start: "October 2022",
+      end: "September 2024",
       description:
         "Replaced a decade-old Excel workflow with a genomics lab portal that cut processing errors by 87% and turnaround time from 48 hours to 4 — then got the whole company using it within months.",
     },
