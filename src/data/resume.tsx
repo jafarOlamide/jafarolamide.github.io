@@ -28,7 +28,7 @@ export const DATA = {
   description:
     "Senior Full-Stack Software Engineer. I love building things and I am always looking for growth opportunities.",
   summary:
-    "A Full-Stack Software engineer with over 6 years of building, growth and learning. I have a sharp eye for debugging, a low tolerance for unnecessary complexity, and a genuine belief that good software is never really finished but only improved. I bring that same mindset to myself.",
+    "A Full-Stack Software engineer with over 7 years of building, growth and learning. I have a sharp eye for debugging, a low tolerance for unnecessary complexity, and a genuine belief that good software is never really finished but only improved. I bring that same mindset to myself.",
   avatarUrl: "/me.jpg",
   skills: [
     { name: "Typescript", icon: Typescript },
@@ -116,7 +116,7 @@ export const DATA = {
       title: "Software Engineer (Contract)",
       logoUrl: "",
       start: "October 2022",
-      end: "September 2024",
+      end: "August 2023",
       description:
         "Replaced a decade-old Excel workflow with a genomics lab portal that cut processing errors by 87% and turnaround time from 48 hours to 4 — then got the whole company using it within months.",
     },
@@ -169,26 +169,17 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Job Hunt Buddy",
+      href: "https://chromewebstore.google.com/detail/lccpnjekopddjajldpijoojcdmmohhcc?utm_source=item-share-cb",
+      dates: "December 2025 - March 2026",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "A simple browser extension that helps keep track of your job applications directly from the browser.",
+      technologies: ["Typescript", "React", "TailwindCSS", "Plasmo"],
       links: [
         {
-          type: "Website",
-          href: "https://chatcollect.com",
+          type: "Browser Extension",
+          href: "https://chromewebstore.google.com/detail/lccpnjekopddjajldpijoojcdmmohhcc?utm_source=item-share-cb",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -197,55 +188,55 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
   ],
-  // hackathons: [
-  //   // {
-  //   //   title: "Hack Western 5",
-  //   //   dates: "November 23rd - 25th, 2018",
-  //   //   location: "London, Ontario",
-  //   //   description:
-  //   //     "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-  //   //   image:
-  //   //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-  //   //   mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-  //   //   links: [],
-  //   // },
-  //   // {
-  //   //   title: "Hack The North",
-  //   //   dates: "September 14th - 16th, 2018",
-  //   //   location: "Waterloo, Ontario",
-  //   //   description:
-  //   //     "Developed a mobile application which delivers university campus wide events in real time to all students.",
-  //   //   image:
-  //   //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-  //   //   mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-  //   //   links: [],
-  //   // },
-  //   // {
-  //   //   title: "FirstNet Public Safety Hackathon",
-  //   //   dates: "March 23rd - 24th, 2018",
-  //   //   location: "San Francisco, California",
-  //   //   description:
-  //   //     "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
-  //   //   icon: "public",
-  //   //   image:
-  //   //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
-  //   //   links: [],
-  //   // },
-  //   // {
-  //   //   title: "DeveloperWeek Hackathon",
-  //   //   dates: "February 3rd - 4th, 2018",
-  //   //   location: "San Francisco, California",
-  //   //   description:
-  //   //     "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-  //   //   image:
-  //   //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
-  //   //   links: [
-  //   //     {
-  //   //       title: "Github",
-  //   //       icon: <Icons.github className="h-4 w-4" />,
-  //   //       href: "https://github.com/cryptotrends/cryptotrends",
-  //   //     },
-  //   //   ],
-  //   // },
-  // ],
+  hackathons: [
+    {
+      title: "Hack Western 5",
+      dates: "November 23rd - 25th, 2018",
+      location: "London, Ontario",
+      description:
+        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [],
+    },
+    {
+      title: "Hack The North",
+      dates: "September 14th - 16th, 2018",
+      location: "Waterloo, Ontario",
+      description:
+        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [],
+    },
+    {
+      title: "FirstNet Public Safety Hackathon",
+      dates: "March 23rd - 24th, 2018",
+      location: "San Francisco, California",
+      description:
+        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+      icon: "public",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+      links: [],
+    },
+    {
+      title: "DeveloperWeek Hackathon",
+      dates: "February 3rd - 4th, 2018",
+      location: "San Francisco, California",
+      description:
+        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/cryptotrends/cryptotrends",
+        },
+      ],
+    },
+  ],
 } as const;
